@@ -29,7 +29,7 @@ public class AsyncProcessor {
             // what if one of them fails
             // the allof insist that all of them pass, and if one of them fail, it will run forever
             // if u want it to ignore one if it fails, allOf needs to be changed. 
-        return CompletableFuture.allOf(futures.toArray(new CompletableFuture[0]))
+       // return CompletableFuture.allOf(futures.toArray(new CompletableFuture[0]))
 
 
         // the below is a pipline that collects the results and make it into an array and seperating values by a space
